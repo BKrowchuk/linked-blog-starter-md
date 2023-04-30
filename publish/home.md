@@ -1,6 +1,9 @@
 ---
-title: "An Extendable Obsidian Publish alternative using Next.JS"
-excerpt: "Create your own template or use someone else's. Changing the template is a matter of updating one line"
+title: "Milkman's Mind"
+date: 2023-04-30
 ---
-Hello World!
+
+Welcome to my blog, here I write about [[various topics]] simplifying them to bring another perspective on learning and knowledge transfer.
+
+I hope my methods can help you learn something you are interested in. 
 
