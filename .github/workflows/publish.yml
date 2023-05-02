@@ -23,11 +23,10 @@ jobs:
       uses: actions-rs/toolchain@v1
       with:
         toolchain: stable
-#    - name: Install and run obsidian-export
-#      run: |
-#        cargo install obsidian-export
-#        rm -rf temp_blog/common_md && mkdir temp_blog/common_md
-#        ~/.cargo/bin/obsidian-export ./temp_md/${{ env.PUBLISH_DIR }} temp_blog/common_md
+    - name: Remove common_md and remake
+      run: |
+        rm -rf temp_blog/common_md && mkdir temp_blog/common_md
+        mv ./temp_md/${{ env.PUBLISH_DIR }} temp_blog/common_md
     - name: Move blog dir to currDir
       run: |
         cp -r temp_blog/. .
