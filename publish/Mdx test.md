@@ -1,9 +1,0 @@
-### This is a test file to see if mdx will work
-
-This is markdown
-
-<p>This is html<\p>
-
-The embed is below
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
