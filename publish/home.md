@@ -7,3 +7,5 @@ Welcome to my blog, here I write about [[various topics]] simplifying them to br
 
 I hope my methods can help you learn something you are interested in. 
 
+[[Mdx test]]
+
